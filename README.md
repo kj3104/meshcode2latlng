@@ -2,8 +2,7 @@
 
 ## Description
 メッシュコードから緯度経度に変換するライブラリです。
-![top](https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/screenshot.png)
-
+<img src="https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/screenshot.png" width=512>
 
 ## Demo of Google maps api
 ### 1次メッシュ
