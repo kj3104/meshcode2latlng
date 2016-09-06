@@ -9,7 +9,7 @@
 ### 1次メッシュ
 ![1st](https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/1st.png)
 ```js
-var location =  meshcode2LatLng.first(5339);
+var location =  meshcode2latlng.first(5339);
 new google.maps.Rectangle({
   strokeColor: '#ff0000',
   fillColor: '#ff0000',
@@ -25,7 +25,7 @@ new google.maps.Rectangle({
 ### 2次メッシュ
 ![2nd](https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/2nd.png)
 ```js
-var location =  meshcode2LatLng.second(533946);
+var location =  meshcode2latlng.second(533946);
 new google.maps.Rectangle({
   strokeColor: '#ff0000',
   fillColor: '#ff0000',
@@ -42,7 +42,7 @@ new google.maps.Rectangle({
 ### 3次メッシュ
 ![3rd](https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/3rd.png)
 ```js
-var location =  meshcode2LatLng.third(53394611);
+var location =  meshcode2latlng.third(53394611);
 new google.maps.Rectangle({
   strokeColor: '#ff0000',
   fillColor: '#ff0000',
@@ -59,7 +59,7 @@ new google.maps.Rectangle({
 ### 1/2メッシュ
 ![1/2](https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/1:2.png)
 ```js
-var location =  meshcode2LatLng.half(533946113);
+var location =  meshcode2latlng.half(533946113);
 new google.maps.Rectangle({
   strokeColor: '#ff0000',
   fillColor: '#ff0000',
@@ -76,7 +76,7 @@ new google.maps.Rectangle({
 ### 1/4メッシュ
 ![1/4](https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/1:4.png)
 ```js
-var location =  meshcode2LatLng.quater(5339461132);
+var location =  meshcode2latlng.quater(5339461132);
 new google.maps.Rectangle({
   strokeColor: '#ff0000',
   fillColor: '#ff0000',
