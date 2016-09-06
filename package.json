@@ -1,6 +1,6 @@
 {
   "name": "meshcode2latlng",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "メッシュコードから緯度経度に変換するライブラリです。",
   "main": "index.js",
   "directories": {

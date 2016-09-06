@@ -1,4 +1,5 @@
-# meshcode2LatLng
+# meshcode2latlng
+[![npm version](https://badge.fury.io/js/meshcode2latlng.svg)](https://badge.fury.io/js/meshcode2latlng)
 
 ## Description
 メッシュコードから緯度経度に変換するライブラリです。
