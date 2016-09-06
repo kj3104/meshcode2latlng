@@ -1,3 +1,4 @@
+
 var map;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
@@ -9,7 +10,7 @@ function initMap() {
 
 function drawMesh(){
   var code = 5339;
-  var loc =  meshcode2LatLng1st(code);
+  var loc =  meshcode2LatLng.first(code);
   new google.maps.Rectangle({
     strokeColor: '#ff0000',
     fillColor: '#ff0000',
@@ -23,7 +24,7 @@ function drawMesh(){
   });
   var code = 533900;
   for(var i=0;i<8;i++){
-    var loc =  meshcode2LatLng2nd(code);
+    var loc =  meshcode2LatLng.second(code);
     var rectangle = new google.maps.Rectangle({
       strokeColor: '#00ffff',
       fillColor: '#00ffff',
@@ -39,7 +40,7 @@ function drawMesh(){
   }
   var code = 53394600;
   for(var i=0;i<10;i++){
-    var loc =  meshcode2LatLng3rd(code);
+    var loc =  meshcode2LatLng.third(code);
     var rectangle = new google.maps.Rectangle({
       strokeColor: '#00ff00',
       fillColor: '#00ff00',
@@ -55,7 +56,7 @@ function drawMesh(){
   }
   var code = 533946121;
   for(var i=0;i<4;i++){
-    var loc =  meshcode2LatLngHalf(code);
+    var loc =  meshcode2LatLng.half(code);
     new google.maps.Rectangle({
       strokeColor: '#0000ff',
       fillColor: '#0000ff',
@@ -71,7 +72,7 @@ function drawMesh(){
   }
 	var code = 5339461331;
   for(var i=0;i<4;i++){
-  	var loc =  meshcode2LatLngQuarter(code);
+  	var loc =  meshcode2LatLng.quater(code);
   	var rectangle = new google.maps.Rectangle({
   		strokeColor: '#ffff00',
   		fillColor: '#ffff00',
