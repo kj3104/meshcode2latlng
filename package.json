@@ -1,0 +1,22 @@
+{
+  "name": "meshcode2latlng",
+  "version": "1.0.0",
+  "description": "メッシュコードから緯度経度に変換するライブラリです。",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luca3104/meshcode2LatLng.git"
+  },
+  "author": "luca3104",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luca3104/meshcode2LatLng/issues"
+  },
+  "homepage": "https://github.com/luca3104/meshcode2LatLng#readme"
+}
