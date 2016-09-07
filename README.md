@@ -2,7 +2,8 @@
 [![npm version](https://badge.fury.io/js/meshcode2latlng.svg)](https://badge.fury.io/js/meshcode2latlng)
 
 ## Description
-メッシュコードから緯度経度に変換するライブラリです。
+メッシュコードから緯度経度に変換するライブラリです。(世界測地系 WGS84)
+
 <img src="https://github.com/luca3104/meshcode2LatLng/blob/screenshot/screenshots/screenshot.png" width=512>
 
 ## Demo of Google maps api
