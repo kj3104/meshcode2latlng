@@ -8,7 +8,7 @@
 <script type="text/javascript" src="./lib/meshcode2latlng.js"></script>
 <script type="text/javascript">
   var loc = meshcode2latlng.first(5339);
-//  loc = { south: 35.333333333333336,
+//  loc => { south: 35.333333333333336,
 //          west: 139,
 //          north: 36.00000000000001,
 //          east: 140 }
@@ -16,11 +16,11 @@
 ```
 
 ### server side
-`npm install meshcode2latlng`　でインストールをします。
+`npm install meshcode2latlng`でインストールをします。
 ```js
 const meshcode2latlng = require('meshcode2latlng');
 var loc = meshcode2latlng.first(5339);
-//  loc = { south: 35.333333333333336,
+//  loc => { south: 35.333333333333336,
 //          west: 139,
 //          north: 36.00000000000001,
 //          east: 140 }
