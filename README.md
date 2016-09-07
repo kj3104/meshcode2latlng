@@ -1,6 +1,31 @@
 # meshcode2latlng
 [![npm version](https://badge.fury.io/js/meshcode2latlng.svg)](https://badge.fury.io/js/meshcode2latlng)
 
+## Installation
+
+### client side
+```html
+<script type="text/javascript" src="./lib/meshcode2latlng.js"></script>
+<script type="text/javascript">
+  var loc = meshcode2latlng.first(5339);
+//  loc = { south: 35.333333333333336,
+//          west: 139,
+//          north: 36.00000000000001,
+//          east: 140 }
+</script>
+```
+
+### server side
+`npm install meshcode2latlng`　でインストールをします。
+```js
+const meshcode2latlng = require('meshcode2latlng');
+var loc = meshcode2latlng.first(5339);
+//  loc = { south: 35.333333333333336,
+//          west: 139,
+//          north: 36.00000000000001,
+//          east: 140 }
+```
+
 ## Description
 メッシュコードから緯度経度に変換するライブラリです。(世界測地系 WGS84)
 
